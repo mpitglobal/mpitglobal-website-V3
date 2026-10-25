@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none">
+  <defs>
+    <style>
+      .fav-text {
+        font-family: 'Merriweather', 'Cinzel', 'Times New Roman', Georgia, serif;
+        font-weight: 900;
+      }
+    </style>
+    <linearGradient id="favBracket" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4AB5EC" />
+      <stop offset="100%" stop-color="#268AC7" />
+    </linearGradient>
+  </defs>
+
+  <!-- Top-Left Corner Bracket (Sky Blue) -->
+  <path d="M 4 28 L 4 4 L 28 4 L 28 8.5 L 8.5 8.5 L 8.5 28 Z" fill="url(#favBracket)" />
+
+  <!-- Bottom-Right Corner Bracket (Sky Blue) -->
+  <path d="M 60 36 L 60 60 L 36 60 L 36 55.5 L 55.5 55.5 L 55.5 36 Z" fill="url(#favBracket)" />
+
+  <!-- MPIT M Letter / MPIT initials in Deep Navy -->
+  <text 
+    x="32" 
+    y="43" 
+    text-anchor="middle" 
+    class="fav-text" 
+    fill="#1B365D" 
+    font-size="32"
+  >M</text>
+</svg>
